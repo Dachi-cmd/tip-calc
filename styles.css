@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C5E4E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 920px;
+    height: 431px;
+}
+
+h2 {
+    color: #5e7a7d;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    width: 379px;
+    background: #f4fafa;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.input-box input {
+    border: none;
+    background: transparent;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    outline: none;
+}
+
+.tip-buttons {
+    width: 379px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tip-buttons button {
+    width: 118px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    background: #00474b;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.tip-buttons :hover {
+    background: #26c2ae;
+    color: #00474B;
+}
+
+.tip-buttons .custom {
+    width: 118px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    background: #f4fafa;
+    color: #5e7a7d;
+}
+
+.icon {
+    margin-right: 5px;
+    color: #9EBBBD;
+}
+
+#right-side {
+    display: flex;
+    justify-content: center;
+    transform: translate(500px, -313px);
+    background-color: #00474B;
+    width: 413px;
+    height: 417px;
+    border-radius: 15px;
+}
+
+.reset_btn {
+    transform: translate(0px, 340px);
+    cursor: pointer;
+    color: #00474B;
+    background-color: #26C2AE;
+    border-radius: 5px;
+    width: 333px;
+    height: 48px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700px;
+    transition: 0.3s ease;
+}
+
+.reset_btn:hover {
+    background-color: #9FE8DF;
+}
+
+.custom::placeholder {
+    text-align: center;
+    color: #547878;
+    font-size: 24px;
+    font-weight: 700;
+}
